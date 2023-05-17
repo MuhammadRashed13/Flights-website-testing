@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "baseUrl": "./",
+        "lib": [
+            "es5",
+            "dom"
+        ],
+        "types": [
+            "cypress",
+            "node"
+        ],
+        "resolveJsonModule": true,
+        "paths": {
+            "@fixtures/*": [
+                "cypress/fixtures/*"
+            ]
+        }
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
